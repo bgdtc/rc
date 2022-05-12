@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: #05323f;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--color);
+  transition: all 0.3s;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 15px;
+  border-color: #a01414;
+  box-shadow: 0 6px 30px -10px rgba(#eecfcf, 1);
+}
+
+@media only screen and (min-width: 600px) {
+  .App-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 60px;
+    margin-bottom: 20px;
+    background-color: #05323f;
+    cursor: pointer;
+    font-size: 24px;
+    color: var(--color);
+    transition: all 0.3s;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 15px;
+    border-color: #a01414;
+    box-shadow: 0 6px 30px -10px rgba(#eecfcf, 1);
+
+  }
+}
+
+.App-btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  background-color: #a01414;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--color);
+  transition: all 0.3s;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 15px;
+  border-color: #064d61;
+  box-shadow: 0 6px 30px -10px rgba(#eecfcf, 1);
+}
+
+@media only screen and (min-width: 600px) {
+  .App-btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 60px;
+    background-color: #a01414;
+    cursor: pointer;
+    font-size: 24px;
+    color: var(--color);
+    transition: all 0.3s;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 15px;
+    border-color: #064d61;
+    box-shadow: 0 6px 30px -10px rgba(#eecfcf, 1);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
